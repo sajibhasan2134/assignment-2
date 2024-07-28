@@ -62,19 +62,28 @@ rgba(48, 48, 48, 0.54)
 }
 
 .flex{display: flex;}
+
+
 .black78{font-size: 4.875rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
+
 .black48{font-size: 3rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
 
-.black28{font-size: 1.75rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
+.black40{ font-size: 2.5rem; font-weight: 800; color: rgba(255, 255, 255, 1);}
 
-.semi18{ font-size: 1.1rem; font-weight: 600; color: rgba(255, 255, 255, 1);}
+.black28{font-size: 1.75rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
+.black24{font-size: 1.5rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
+
+.semi18{ font-size: 1.1rem; font-weight: 700; color: rgba(255, 255, 255, 1);}
 
 .regular18{font-size: 1.1rem; font-weight: 400; color: rgba(255, 255, 255, 0.5);}
 
-.regular16{font-size: 1rem; font-weight: 400; color: rgba(255, 255, 255, 0.5);}
+.regular16{font-size: 1rem; font-weight: 400; color: rgba(239, 237, 232, 0.65);}
 
-.regular-14{font-size: 0.875rem; font-weight: 400; color: rgba(255, 255, 255, 0.5);}
+.mid14{ font-size: 0.875rem; font-weight: 600; color: rgba(255, 255, 255, 1);}
 
+.regular14{font-size: 0.875rem; font-weight: 400; color: rgba(255, 255, 255, 0.5);}
+
+.regular13{font-size: 0.684rem; font-weight: 400; color: rgba(255, 255, 255, 0.65);}
 
 
 
@@ -145,6 +154,7 @@ rgba(48, 48, 48, 0.54)
 }
 
 .banner-image{
+    position: relative;
     max-width: 50%;
 }
 .gym{
@@ -158,8 +168,9 @@ rgba(48, 48, 48, 0.54)
     border-radius: 12px;
     padding: 20px;
     background-color: rgba(244, 246, 248, 0.178);
-    position: relative;
-    
+    position: absolute;
+    top: 125px;
+    right: -70px;
 }
 
 .cart2{
@@ -168,6 +179,9 @@ rgba(48, 48, 48, 0.54)
     border-radius: 12px;
     padding: 20px;
     background-color: rgba(244, 246, 248, 0.178);
+    position: absolute;
+    bottom: 36px;
+    right: 256px;
 }
 
      /* habit section style */
@@ -220,9 +234,55 @@ rgba(48, 48, 48, 0.54)
     justify-content: center; */
     max-width: 1440px;
     margin: 0 auto;
+    position: relative;
     
 }
-#training-cart1{
+.training-description{margin-bottom: 50px;}
+
+.description-1{
+    position: absolute;
+    top: ;
+    bottom: ;
+    left: ;
+    right: ;
+}
+.description-1{
+    position: absolute;
+    top: ;
+    bottom: ;
+    left: ;
+    right: ;
+}
+.description-2{
+    position: absolute;
+    top: ;
+    bottom: ;
+    left: ;
+    right: ;
+}
+.description-3{
+    position: absolute;
+    top: ;
+    bottom: ;
+    left: ;
+    right: ;
+}
+.description-4{
+    position: absolute;
+    top: ;
+    bottom: ;
+    left: ;
+    right: ;
+}
+.description-5{
+    position: absolute;
+    top: ;
+    bottom: ;
+    left: ;
+    right: ;
+}
+
+#training-cart6{
     display: flex;
     max-width: 1440px;
     max-height: 500px;
