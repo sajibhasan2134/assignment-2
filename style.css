@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: 0;
+}
+
+
+body{margin: 0 auto;
+    font-family:  "Inter", sans-serif;;
+    line-height: 1.5;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+/*    shared style   */
+
+.max{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* 
+
+rgba(48, 48, 48, 0.54) 
+
+*/
+
+.orange{
+    color: rgba(230, 83, 60, 1);
+}
+.btn1{
+    border: none;
+    border-radius: 39px;
+    padding: 15px 40px;
+    margin: 30px 0;
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn2{
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 39px;
+    padding: 15px 30px;
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+}
+
+.flex{display: flex;}
+.black78{font-size: 4.875rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
+.black48{font-size: 3rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
+
+.black28{font-size: 1.75rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
+
+.semi18{ font-size: 1.1rem; font-weight: 600; color: rgba(255, 255, 255, 1);}
+
+.regular18{font-size: 1.1rem; font-weight: 400; color: rgba(255, 255, 255, 0.5);}
+
+.regular16{font-size: 1rem; font-weight: 400; color: rgba(255, 255, 255, 0.5);}
+
+.regular-14{font-size: 0.875rem; font-weight: 400; color: rgba(255, 255, 255, 0.5);}
+
+
+
+
+/* header style start */
+.header{ 
+    background-color: rgba(48, 48, 48, 0.54); 
+    background: radial-gradient();
+}
+
+.navbar, .banner{
+     max-width: 1440px;
+     margin: 0 auto;
+     padding: 50px 0px;
+     justify-content: space-between;
+     align-items: center;
+}
+
+
+
+.nav-title{
+    font-size: 2.25rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.nav-links{
+    border: 0.1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    align-items: center;
+    list-style: none;
+
+}
+.nav-link{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    margin: 20px;
+
+}
+.home{
+    border: none;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 39pc;
+    margin: 3px;
+    padding: 5px 8px;
+}
+
+
+/* banner style */
+
+
+
+.banner-content{
+    width: 50%;
+}
+
+
+.banner-title{
+    font-size: 4.875rem;
+    font-weight: 800;
+}
+
+.shape{
+    overflow: visible;
+    font-family: "Playwrite CZ";
+    font-optical-sizing: auto;
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+.banner-image{
+    max-width: 50%;
+}
+.gym{
+    width: 100%;
+    display: flex;
+}
+
+.cart1{
+    width: 200px;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgba(244, 246, 248, 0.178);
+    position: relative;
+    
+}
+
+.cart2{
+    width: 200px;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgba(244, 246, 248, 0.178);
+}
+
+     /* habit section style */
+
+     main{max-width: 1440px;
+    margin: 0 auto;}
+
+.habits, .habit-logo{
+    text-align: center;
+    margin: 50px auto;
+    
+}
+
+.habit-image{
+    border: none;
+    border-radius: 180px;
+}
+
+.feature-cart{
+    max-width: 80%;
+    max-height: 500px;
+    margin: 100px auto;
+    background-color: #333;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features{
+    padding: 30px;
+    max-width: 50%;
+}
+
+.feature-image{
+   
+    max-width: 30%;
+    max-height: 500px;
+    margin: 30px;
+}
+
+.run-img{ max-width: 100%;
+    max-height: 100%;
+    border-radius: 12px;
+}
+
+.training-image{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+#training-cart1{
+    display: flex;
+    max-width: 1440px;
+    max-height: 500px;
+}
+
+#training-cart2{
+    display: flex;
+    max-width: 1440px;
+    max-height: 500px;
+}
+.img1{
+    max-width: 20%;
+    max-height: 500px;
+}
+
+.img2{
+    max-width: 55%;
+    max-height: 50%;
+}
+
+.img3{
+    max-width: 25%;
+    max-height: 500px;
+}
+
+.img4{
+    max-width: 45%;
+    max-height: 50%;
+}
+
+.img5{
+    max-width: 20%;
+    max-height: 500px;
+}
+
+.img6{
+    max-width: 35%;
+    max-height: 50%;
+}
+
+
+.bmi{
+    max-width: 50%;
+    margin: 80px auto;
+}
+
+
+
+
+
+
+
+
+
+  /* responsive style for mobile */
+
+  @media screen and ( max-width:576px ) {
+
+    .navbar,
+    .banner{
+        flex-direction: column;
+      
+        margin: 10px auto;
+        max-width: 100%;
+    }
+
+ 
+
+    
+    
+  }
+
+

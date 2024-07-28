@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-content {
+    margin: 20px 0;
+}
+
+.header-content h2 {
+    font-size: 36px;
+}
+
+.btn {
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.habits, .run-extra, .training, .bmi, .team {
+    padding: 20px;
+    text-align: center;
+}
+
+.habit-cards, .training-cards, .team-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.habit-card, .training-card, .team-card {
+    margin: 10px;
+    text-align: center;
+}
+
+.habit-card img, .training-card img, .team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.bmi-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bmi-form label, .bmi-form input {
+    margin: 10px 0;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
