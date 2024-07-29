@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+.center{ text-align: center;
+    margin: 20px auto;
+    justify-content: center;
+}
 
 .inter{
     font-family: "Inter", sans-serif;
@@ -228,14 +232,6 @@ rgba(48, 48, 48, 0.54)
     border-radius: 12px;
 }
 
-.training-image{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    max-width: 1440px;
-    margin: 0 auto;
-    position: relative;
-}
 
    
 
