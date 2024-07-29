@@ -235,109 +235,14 @@ rgba(48, 48, 48, 0.54)
     max-width: 1440px;
     margin: 0 auto;
     position: relative;
-    
-}
-.training-description{margin-bottom: 50px;}
-
-.description-1{
-    position: absolute;
-    top: ;
-    bottom: ;
-    left: ;
-    right: ;
-}
-.description-1{
-    position: absolute;
-    top: ;
-    bottom: ;
-    left: ;
-    right: ;
-}
-.description-2{
-    position: absolute;
-    top: ;
-    bottom: ;
-    left: ;
-    right: ;
-}
-.description-3{
-    position: absolute;
-    top: ;
-    bottom: ;
-    left: ;
-    right: ;
-}
-.description-4{
-    position: absolute;
-    top: ;
-    bottom: ;
-    left: ;
-    right: ;
-}
-.description-5{
-    position: absolute;
-    top: ;
-    bottom: ;
-    left: ;
-    right: ;
 }
 
-#training-cart6{
-    display: flex;
-    max-width: 1440px;
-    max-height: 500px;
-}
-
-#training-cart2{
-    display: flex;
-    max-width: 1440px;
-    max-height: 500px;
-}
-.img1{
-    max-width: 20%;
-    max-height: 500px;
-}
-
-.img2{
-    max-width: 55%;
-    max-height: 50%;
-}
-
-.img3{
-    max-width: 25%;
-    max-height: 500px;
-}
-
-.img4{
-    max-width: 45%;
-    max-height: 50%;
-}
-
-.img5{
-    max-width: 20%;
-    max-height: 500px;
-}
-
-.img6{
-    max-width: 35%;
-    max-height: 50%;
-}
-
-
-.bmi{
-    max-width: 50%;
-    margin: 80px auto;
-}
+   
 
 
 
 
-
-
-
-
-
-  /* responsive style for mobile */
+/* responsive style for mobile */
 
   @media screen and ( max-width:576px ) {
 
