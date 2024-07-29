@@ -8,11 +8,6 @@
     padding: 0;
 }
 
-.center{ text-align: center;
-    margin: 20px auto;
-    justify-content: center;
-}
-
 .inter{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -32,6 +27,10 @@ body{margin: 0 auto;
 
 
 /*    shared style   */
+
+.center{ text-align: center;
+    margin: 0 auto;
+    justify-content: center;}
 
 .max{
     max-width: 100%;
@@ -87,7 +86,7 @@ body{margin: 0 auto;
 
 /* header style start */
 .header{ 
-    background-color: rgba(48, 48, 48, 0.54); 
+    background-color: rgba(17, 17, 17, 1); 
     background: radial-gradient();
 }
 
@@ -202,7 +201,7 @@ body{margin: 0 auto;
     max-width: 80%;
     max-height: 500px;
     margin: 100px auto;
-    background-color: #333;
+    background-color: #33333370;
     border: none;
     border-radius: 12px;
     display: flex;
@@ -226,8 +225,90 @@ body{margin: 0 auto;
     border-radius: 12px;
 }
 
+.bmi{
+    max-width: 50%;
+    margin: 50px auto;
+}
 
+
+.calculator{
+    width: 100%;
+    background: #3333338f;  
+}
+
+.BMI{
+    display: flex;
+    max-width: 1400px;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    padding: 50px;
+    
+}
+
+.table{
+    max-width: 50%;
+    border-collapse: collapse;
+}
+
+table th, table td {
    
+    border: 1px solid #5555555d;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+.form{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.input, .gender {
+    width: 45%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+}
+.factor{
+    margin-top: 5px;
+    width: 93%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.our-team{ 
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 1440px; 
+    background-color: #3333338f;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 50px auto;
+}
+
+.team-img-container{
+    border: none;
+    border-radius: 12px;
+    margin: 15px;
+    width: 400px;
+    height: 400px;
+}
+   
+.team-img{
+    max-width: 100%;
+    max-height: 100%;
+    border: none;
+    border-radius: 12px;
+}
 
 
 
