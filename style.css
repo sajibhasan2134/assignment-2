@@ -70,6 +70,10 @@ body{margin: 0 auto;
 .black28{font-size: 1.75rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
 .black24{font-size: 1.5rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
 
+.black20{
+    font-size: 1.25rem; font-weight: 900; color: rgba(255, 255, 255, 1);
+}
+
 .semi18{ font-size: 1.1rem; font-weight: 700; color: rgba(255, 255, 255, 1);}
 
 .regular18{font-size: 1.1rem; font-weight: 400; color: rgba(255, 255, 255, 0.5);}
@@ -220,9 +224,9 @@ body{margin: 0 auto;
     margin: 30px;
 }
 
-.run-img{ max-width: 100%;
-    max-height: 100%;
-    border-radius: 12px;
+.run-img{ width: 100%;
+    height: 100%;
+    border-radius: 12px;  
 }
 
 .bmi{
@@ -233,7 +237,7 @@ body{margin: 0 auto;
 
 .calculator{
     width: 100%;
-    background: #3333338f;  
+    background: #3333338f;
 }
 
 .BMI{
@@ -285,30 +289,41 @@ table th, table td {
 }
 
 .our-team{ 
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
     max-width: 1440px; 
     background-color: #3333338f;
-    border: none;
     border-radius: 12px;
     padding: 15px;
     margin: 50px auto;
+    
 }
 
 .team-img-container{
-    border: none;
     border-radius: 12px;
     margin: 15px;
-    width: 400px;
-    height: 400px;
+    width: 32%;
+    position: relative;
+    
+   
 }
    
 .team-img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
     border: none;
     border-radius: 12px;
+    object-fit: cover;  
 }
+
+.trainer{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+
+   
+    
+
 
 
 
@@ -319,9 +334,11 @@ table th, table td {
 
     .navbar,
     .banner{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
       
-        margin: 10px auto;
+        margin: 10 auto;
         max-width: 100%;
     }
 

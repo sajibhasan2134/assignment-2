@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/trainer1.png" alt="Jerome Bell">
+           
+        </div>
+        <div class="card">
+            <img src="images/trainer2.png" alt="Cameron Williamson">
+           
+        </div>
+        <div class="card">
+            <img src="images/trainer3.png" alt="Darrell Steward">
+           
+        </div>
+        <div class="card">
+            <img src="images/trainer4.png" alt="Dianne Russell">
+           
+        </div>
+        <div class="card">
+            <img src="images/trainer5.png" alt="Cody Fisher">
+           
+        </div>
+        <div class="card">
+            <img src="images/trainer6.png" alt="Theresa Webb">
+            
+        </div>
+    </div>
+</body>
+</html>
