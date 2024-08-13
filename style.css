@@ -63,6 +63,8 @@ body{margin: 0 auto;
 
 .black78{font-size: 4.875rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
 
+.black70{font-size: 4.375rem; font-weight: 800; color: rgba(230, 83, 60, 1); font-style: italic;}
+
 .black48{font-size: 3rem; font-weight: 900; color: rgba(255, 255, 255, 1);}
 
 .black40{ font-size: 2.5rem; font-weight: 800; color: rgba(255, 255, 255, 1);}
@@ -77,6 +79,8 @@ body{margin: 0 auto;
 .semi18{ font-size: 1.1rem; font-weight: 700; color: rgba(255, 255, 255, 1);}
 
 .regular18{font-size: 1.1rem; font-weight: 400; color: rgba(255, 255, 255, 0.5);}
+
+.regular23{font-size: 1.437rem; font-weight: 400; color: rgba(255, 255, 255, 0.5);}
 
 .regular16{font-size: 1rem; font-weight: 400; color: rgba(239, 237, 232, 0.65);}
 
@@ -318,6 +322,35 @@ table th, table td {
     position: absolute;
     left: 30px;
     bottom: 30px;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.content{
+    justify-content: center;
+    justify-content: space-around;
+    padding: 80px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.footer1{
+    max-width: 35%;
+}
+.footer2{
+    max-width: 25%;
+}
+.footer3{
+    max-width: 25%;
+}
+
+
+hr{ 
+    max-width: 80%;
+    color: rgba(255, 255, 255, 0.1);
+    margin: auto;
 }
 
 
