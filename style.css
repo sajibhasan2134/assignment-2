@@ -239,8 +239,10 @@ body{margin: 0 auto;
 }
 
 
+
+
 .calculator{
-    width: 100%;
+   
     background: #3333338f;
 }
 
@@ -352,6 +354,14 @@ hr{
     color: rgba(255, 255, 255, 0.1);
     margin: auto;
 }
+
+.copy-wright{display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1.25rem; color: rgba(255, 255, 255, 0.5);
+    
+ }
 
 
    
